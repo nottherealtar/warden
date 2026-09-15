@@ -1,0 +1,52 @@
+{
+  "worldUnits": 163.84,
+  "metersPerUnit": 100,
+  "tileCdn": "https://assets.wardogs-artillery.com/releases/assets-v1/maps/tiles",
+  "maps": [
+    {
+      "id": "bakurani",
+      "name": "Bakurani",
+      "image": "maps/bakurani-z2.jpg",
+      "tilePath": "bakurani",
+      "maxZoom": 7,
+      "bounds": { "minX": 23.35, "maxX": 133.6, "minY": 19.34, "maxY": 129.65 },
+      "tileBounds": { "minX": -0.03, "maxX": 163.81, "minY": -0.01, "maxY": 163.83 },
+      "towers": [
+        { "id": 1, "x": 80.52, "y": 69.85, "label": "T1" },
+        { "id": 2, "x": 77.19, "y": 70.00, "label": "T2" },
+        { "id": 3, "x": 77.19, "y": 73.44, "label": "T3" },
+        { "id": 4, "x": 83.64, "y": 72.85, "label": "T4" },
+        { "id": 5, "x": 82.22, "y": 68.41, "label": "T5" }
+      ]
+    },
+    {
+      "id": "ozeti",
+      "name": "Ozeti",
+      "image": "maps/ozeti-z2.jpg",
+      "tilePath": "ozeti",
+      "maxZoom": 7,
+      "bounds": { "minX": 57.58, "maxX": 143.07, "minY": 21.81, "maxY": 99.56 },
+      "tileBounds": { "minX": -0.03, "maxX": 163.81, "minY": -0.01, "maxY": 163.83 },
+      "towers": [
+        { "id": 1, "x": 95.80, "y": 62.82, "label": "T1" },
+        { "id": 2, "x": 100.37, "y": 59.23, "label": "T2" },
+        { "id": 3, "x": 104.49, "y": 63.71, "label": "T3" },
+        { "id": 4, "x": 100.62, "y": 67.64, "label": "T4" }
+      ]
+    },
+    {
+      "id": "zestafona",
+      "name": "Zestafona",
+      "image": "maps/zestafona-z2.jpg",
+      "tilePath": "zestafona",
+      "maxZoom": 7,
+      "bounds": { "minX": 19.9, "maxX": 124.89, "minY": 50.7, "maxY": 141.9 },
+      "tileBounds": { "minX": -0.03, "maxX": 163.81, "minY": -0.01, "maxY": 163.83 },
+      "towers": [
+        { "id": 1, "x": 68.60, "y": 104.15, "label": "T1" },
+        { "id": 2, "x": 72.89, "y": 105.07, "label": "T2" },
+        { "id": 3, "x": 70.17, "y": 100.17, "label": "T3" }
+      ]
+    }
+  ]
+}

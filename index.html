@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <meta name="theme-color" content="#0B0C0E" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <title>WARDEN</title>
+  <link rel="manifest" href="manifest.json" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div id="landing">
+    <header><b>WARDEN</b><button class="linkish" id="aboutBtn">ABOUT</button></header>
+    <div class="land-body">
+      <svg class="mark" viewBox="0 0 36 36" aria-hidden="true">
+        <rect x="3" y="3" width="30" height="30" fill="none" stroke="#E8EAED" stroke-width="1.6"/>
+        <path d="M10 13h16M10 18h6M20 18h6M10 23h16" stroke="#E8B84A" stroke-width="2" stroke-linecap="square"/>
+      </svg>
+      <div class="brand">WARDEN</div>
+      <div class="tag">CALL THE CODE. PULL THE ZONE.</div>
+      <button class="btn-solid" id="newRoom">NEW ROOM</button>
+      <div class="or">OR JOIN</div>
+      <div class="cells" id="joinCells"></div>
+      <button class="btn-ghost" id="joinBtn" disabled>JOIN</button>
+      <div class="err" id="joinErr"></div>
+    </div>
+    <div class="foot">Unofficial squad board for WARDOGS. Not affiliated with Bulkhead or Team17.</div>
+  </div>
+  <div id="app">
+    <div class="app-h">
+      <span id="mapName">BAKURANI</span>
+      <span class="rc" id="roomCode" title="Copy">————</span>
+      <span id="presence"><i class="dot" id="liveDot"></i> <span id="liveN">1</span></span>
+      <button class="linkish" id="shareBtn">SHARE</button>
+      <button class="linkish" id="leaveBtn">LEAVE</button>
+    </div>
+    <div class="strip" id="strip"></div>
+    <div class="brute" id="brute"></div>
+    <div class="map-wrap">
+      <canvas id="map"></canvas>
+      <div class="hud" id="hud">X — &nbsp; Y —</div>
+      <div class="call-chip hidden" id="chip"></div>
+    </div>
+    <aside class="desk-only desk-side" id="deskSide"></aside>
+    <nav class="dock">
+      <button data-sheet="pins"><span>+</span>PIN</button>
+      <button data-sheet="call"><span>●</span>CALL</button>
+      <button data-sheet="kit"><span>$</span>KIT</button>
+      <button data-sheet="more"><span>···</span>MORE</button>
+    </nav>
+  </div>
+  <div class="veil" id="veil"></div>
+  <div class="sheet" id="sheet"></div>
+  <div class="toast" id="toast">COPIED</div>
+  <script src="app.js"></script>
+</body>
+</html>
